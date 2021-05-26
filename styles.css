@@ -2,13 +2,25 @@ body {
     background:black;
 }
 .entirephotospace {
+    display: block;
     background: lightgray;
     max-height: 100%;
-    max-width: 80%;
-    font-size: 1.2rem;
+    width: 80%;
     background: rgb(230, 224, 224);
-    color: #000;
-    overflow-wrap: break-word;
-    border-radius: 8px;
-    padding: 4rem;
+    border: 1px;
+    border-color: red;
+}
+.whitetop {
+    height: 1px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-color: green;
+    border: 1px;
+}
+.photo1 {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 200px;
 }
