@@ -3,19 +3,20 @@ body {
 }
 .entirephotospace {
     display: block;
-    background: lightgray;
     max-height: 100%;
     width: 80%;
-    background: rgb(230, 224, 224);
-    border: 1px;
-    border-color: red;
+    background: rgb(207, 197, 197);
+    
 }
 .whitetop {
-    height: 1px;
+    height: 40px;
     width: 100%;
     background: rgb(255, 255, 255);
     border-color: green;
     border: 1px;
+    text-align: center;
+}
+.photo-box {
 }
 .photo1 {
     display: flex;
