@@ -16,12 +16,24 @@ body {
     border: 1px;
     text-align: center;
 }
-.photo-box {
+.photo {
+    margin: auto;
+    width: 200px;
+    margin-top: 20px;
 }
-.photo1 {
-    display: flex;
-    justify-content: center;
+.photo-header {
+    width: 100%;
+    background-color: white;
+}
+h6 {
+   padding: 2px;
+   margin: 0%;
 }
 img {
-    width: 200px;
+    width: 100%;
+}
+.photo-info {
+    width: 100%;
+    background-color: white;
+    margin: 0;
 }
